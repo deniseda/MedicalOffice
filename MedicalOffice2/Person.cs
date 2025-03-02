@@ -20,5 +20,5 @@ public abstract class Person : IPerson
         Email = email;
     }
 
-    public abstract void MostraDettagli();
+    public abstract void ViewDetail();
 }

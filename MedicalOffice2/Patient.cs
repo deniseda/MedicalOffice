@@ -22,15 +22,15 @@ namespace MedicalOffice2
             Address = address;
         }
 
-        public override void MostraDettagli()
+        public override void ViewDetail()
         {
             if (Desease == null)
             {
-                Console.WriteLine($"Nome: {Name}, Età: {Age}, Malattia: Nessuna");
+                Console.WriteLine($"Name: {Name}, Age: {Age}, Desease: None");
             }
             else
             {
-                Console.WriteLine($"Nome: {Name}, Età: {Age}, Malattia: {Desease}");
+                Console.WriteLine($"Nome: {Name}, Age: {Age}, Desease: {Desease}");
             }
         }
 

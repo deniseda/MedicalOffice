@@ -12,6 +12,6 @@ namespace MedicalOffice2
         string Surname { get; set; }
         string Email { get; set; }
 
-        void MostraDettagli();
+        void ViewDetail();
     }
 }

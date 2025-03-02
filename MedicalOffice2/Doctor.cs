@@ -15,9 +15,9 @@ namespace MedicalOffice2
             Specialization = specialization;
         }
 
-        public override void MostraDettagli()
+        public override void ViewDetail()
         {
-            Console.WriteLine($"Nome e cognome: {Name}, {Surname}, Specializzazione: {Specialization}");
+            Console.WriteLine($"Name and surname: {Name}, {Surname}, Spec in: {Specialization}");
         }
 
 

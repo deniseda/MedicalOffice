@@ -9,7 +9,7 @@ namespace MedicalOffice2
             Anagraphic anagraphic = new Anagraphic();
 
             Doctor doctor = new Doctor("Giulia", "Neri", "giulia@studiomedico.com", "Cardiologia");
-            Patient patient = new Patient("Marina", "Capo", "marina@gmail.com", null, 35, "Via Milano 20");
+            Patient patient = new Patient("Marina", "Capo", "marina@ggg.com", null, 35, "Via Milano 20");
 
             anagraphic.AddPerson(doctor);
             anagraphic.AddPerson(patient);
